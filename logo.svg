@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="580.49957mm"
-   height="335.5802mm"
-   viewBox="0 0 580.49957 335.5802"
+   width="579.74371mm"
+   height="318.25595mm"
+   viewBox="0 0 579.74371 318.25595"
    version="1.1"
    id="svg35"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -29,6 +29,17 @@
          x="365.66904"
          y="47.09882" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12">
+      <rect
+         style="fill:none;stroke-width:0.99999994"
+         id="rect14"
+         width="2191.1575"
+         height="1202.8572"
+         x="368.52618"
+         y="112.57628" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -38,7 +49,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="1737.0071"
+     inkscape:cx="1734.1499"
      inkscape:cy="459.88157"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -68,7 +79,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(353.74979,65.069857)">
+     transform="translate(352.99384,47.745613)">
     <image
        transform="matrix(0.26458333,0,0,0.26458333,-450.49972,-77.53142)"
        width="2894.6667"
@@ -78,6 +89,6 @@
        id="image10"
        x="0"
        y="0"
-       clip-path="url(#clipPath14)" />
+       clip-path="url(#clipPath12)" />
   </g>
 </svg>

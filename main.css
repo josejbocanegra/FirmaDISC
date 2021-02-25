@@ -1,0 +1,32 @@
+#final-name {
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+
+.codigo {
+  color: #606060;
+}
+
+.email {
+  text-decoration: underline;
+  color: dodgerblue;
+  font-size: 0.8rem;
+}
+
+.box {
+  margin-left: 2px;
+  width: 650px;
+  height: 80px;
+  display: inline-block;
+  clear: both;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+}
+
+.dotted {
+  text-decoration: dotted;
+}

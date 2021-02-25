@@ -14,6 +14,10 @@ controls.forEach((item) => {
     if (element.target.innerHTML.includes("[")) element.target.innerHTML = "";
   });
 
+  item.control.addEventListener("focus", (element) => {
+    if (element.target.innerHTML.includes("[")) element.target.innerHTML = "";
+  });
+
   item.control.addEventListener("focusout", (element) => {
     if (element.target.innerHTML === "")
       element.target.innerHTML = `${item.text} [Clic para editar]`;

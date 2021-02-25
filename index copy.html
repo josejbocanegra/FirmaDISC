@@ -16,7 +16,30 @@
   <body>
     <div class="container py-4">
       <div class="row">
+        <div class="col-4">
+          <h1>Detalles de la firma</h1>
+          <hr />
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label"> Nombre </label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+
+            <div class="mb-3">
+              <label for="code" class="form-label"> Código </label>
+              <input type="text" class="form-control" id="code" />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label"> Correo </label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+          </form>
+        </div>
         <div class="col-8" id="firma">
+          <h1>Firma</h1>
+          <hr />
+
           <table
             style="
               border-spacing: 0;
@@ -30,11 +53,11 @@
                 <img src="logo.png" width="420" sytle="vertical-align: top;" />
               </td>
               <td style="border: none">
-                <p id="final-name">Nombre [Clic para editar]</p>
-                <p id="final-code" class="codigo">Código [Clic para editar]</p>
+                <p id="final-name">-</p>
+                <p id="final-code" class="codigo">Ingrese su correo</p>
                 <br />
                 <p id="final-email" class="email" style="font-size: 0.8rem">
-                  Correo electrónico [Clic para editar]
+                  -
                 </p>
                 <p class="email" style="font-size: 0.8rem">
                   <a href="https://sistemas.uniandes.edu.co"

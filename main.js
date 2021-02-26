@@ -10,8 +10,10 @@ const controls = [
 
 controls.forEach((item) => {
   item.control.contentEditable = true;
+
   item.control.addEventListener("click", (element) => {
     if (element.target.innerHTML.includes("[")) element.target.innerHTML = "";
+    console.log(element);
   });
 
   item.control.addEventListener("focus", (element) => {
